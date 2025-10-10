@@ -1,6 +1,6 @@
 
 // --- Game Config ---
-export const GAME_DURATION = 60; // in seconds
+export const GAME_DURATION = 1; // in seconds
 
 // --- Word List ---
 export const WORD_LIST = [

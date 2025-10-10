@@ -50,17 +50,17 @@ const App: React.FC = () => {
 
             <div className="relative z-10 flex flex-col items-center">
                 <h1 className="text-4xl md:text-6xl font-pixel text-green-400" style={{textShadow: '0 0 10px #10b981, 0 0 20px #10b981'}}>Corrida de Digitação Maluca</h1>
-                <p className="mt-4 text-lg text-gray-300 font-bold">Seus dedos são rápidos o bastante?</p>
-                <div className="mt-12 space-y-6">
+                <p className="mt-4 text-md md:text-lg text-gray-300 font-bold">Seus dedos são rápidos o bastante?</p>
+                <div className="mt-12 space-y-6 w-full max-w-xs sm:max-w-sm">
                 <button
                     onClick={handleGameStart}
-                    className="w-64 bg-green-500/20 hover:bg-green-500/40 text-green-300 font-bold py-4 px-8 rounded-lg text-2xl font-pixel shadow-lg transform hover:scale-105 transition-all duration-200 border-2 border-green-400 hover:shadow-[0_0_20px_#10b981]"
+                    className="w-full bg-green-500/20 hover:bg-green-500/40 text-green-300 font-bold py-4 px-6 rounded-lg text-xl sm:text-2xl font-pixel shadow-lg transform hover:scale-105 transition-all duration-200 border-2 border-green-400 hover:shadow-[0_0_20px_#10b981]"
                 >
                     Jogar
                 </button>
                 <button
                     onClick={() => setView('leaderboard')}
-                    className="w-64 bg-blue-500/20 hover:bg-blue-500/40 text-blue-300 font-bold py-4 px-8 rounded-lg text-2xl font-pixel shadow-lg transform hover:scale-105 transition-all duration-200 border-2 border-blue-400 hover:shadow-[0_0_20px_#3b82f6]"
+                    className="w-full bg-blue-500/20 hover:bg-blue-500/40 text-blue-300 font-bold py-4 px-6 rounded-lg text-xl sm:text-2xl font-pixel shadow-lg transform hover:scale-105 transition-all duration-200 border-2 border-blue-400 hover:shadow-[0_0_20px_#3b82f6]"
                 >
                     Placar
                 </button>
