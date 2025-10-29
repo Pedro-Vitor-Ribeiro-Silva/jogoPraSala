@@ -146,9 +146,9 @@ const Game: React.FC<GameProps> = ({ onGameOver, onStartSurprise, isSurpriseGame
     <div className={`w-screen h-screen bg-gray-900 flex flex-col items-center justify-center font-pixel p-4 overflow-hidden transition-all duration-500 ${isGlitching ? 'glitch-active' : ''} ${isExploding ? 'explosion-active' : ''}`} onClick={() => inputRef.current?.focus()}>
          <div className="absolute inset-0 bg-black opacity-70 z-0 bg-[radial-gradient(#10b981_1px,transparent_1px)] [background-size:24px_24px]"></div>
         
-         <audio id="glitch-audio" src="public/terremotocortado.wav" preload="auto"></audio>
+         <audio id="glitch-audio" src="terremotocortado.wav" preload="auto"></audio>
          {/* Adicione o caminho para o seu áudio de explosão aqui */}
-         <audio id="explosion-audio" src="public/tnt.wav" preload="auto"></audio>
+         <audio id="explosion-audio" src="tnt.wav" preload="auto"></audio>
 
       <div className="relative z-10 w-full max-w-4xl flex flex-col items-center glitch-item">
         
