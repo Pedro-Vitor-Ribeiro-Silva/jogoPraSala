@@ -13,7 +13,7 @@ export const WORD_LIST = [
     "endpoint",
     "requisição http",
     "sql",
-    "postgreSQL",
+    "postgresql",
     "neon database",
     "query",
     "modelagem de dados",
